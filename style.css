@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+ color: #555;
+ margin: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+#header {
+ background-color: #1abc9c;
+ height: 150px;
+ line-height: 150px;
+}
+#header a {
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+#header a:hover {
+ color: #222;
+}
+#header-title {
+ display: block;
+ float: left;
+ font-size: 20px;
+ font-weight: bold;
+}
+#header-nav {
+display: block;
+float: right;
+margin-top: 0;
+}
+#header-nav li {
+ display: inline;
+ padding-left: 20px;
+}
+.container {
+max-width: 1000px;
+margin: 0 auto;
+}
+#footer {
+ background-color: #2f2f2f;
+ padding: 50px 0;
+}
+.column {
+min-width: 300px;
+display: inline-block;
+vertical-align: top;
+}
+#footer h4 {
+ color: white;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+#footer p {
+ color: white;
+}
+a {
+text-decoration: none;
+}
+a:hover {
+color: #F6A623;
+}
+.post, .about {
+max-width: 800px;
+margin: 0 auto;
+padding: 60px 0;
+}
+p {
+ line-height: 1.5;
+}
+h1, h2, h3, h4 {
+color: #333;
+}
+.post-author img {
+ width: 200px;
+ height: 200px;
+ border: solid lightBlue;
+ border-radius: 200px;
+ filter: contrast(110%) saturate (80%) brightness(110%);
+ margin: 0 auto;
+ display: block;
+ vertical-align: middle;
+}
+.post-author-about img {
+ width: 350px;
+ height: 350px;
+ border: solid lightBlue;
+ border-radius: 350px;
+ filter: contrast(110%) saturate (80%) brightness(110%);
+ margin: 0 auto;
+ display: block;
+ vertical-align: middle;
+}
+.post-author span {
+margin-left: 16px;
+}
+.post-title {
+text-align: center;
+}
+.post-day {
+color: #D2D2D2;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+.facebook, .instagram {
+ color: white;
+}
+#bt1 {
+ background-color: #4267b2;
+ border-radius: 10px;
+ font-size: 15px;
+ font-weight: bold;
+}
+#bt2 {
+ background: linear-gradient(30deg, #8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7);
+ border-radius: 10px;
+ font-size: 15px;
+ font-weight: bold;
+}
